@@ -1,0 +1,22 @@
+.menu-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#EB3B5A;
+}
+
+.logo{
+    margin-left:30px;
+    font-family: 'Ubuntu';
+    color: #fff;
+}
+
+.menu-header a{
+    text-decoration:none;
+    padding:12px;
+    margin-right: 30px;
+    font-family: 'Ubuntu';
+    text-transform:uppercase;
+    color:#fff;
+    font-weight:bold;
+}

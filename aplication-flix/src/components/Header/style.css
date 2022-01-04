@@ -1,0 +1,19 @@
+.header-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:30px;
+}
+
+
+.title-flix{
+    font-family: 'Ubuntu';
+    font-size:24px;
+    color:#EB3B5A;
+    font-weight:bold;
+}
+
+.img-suols img{
+    width:600px;
+    height:350px;
+}

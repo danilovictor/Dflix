@@ -1,0 +1,53 @@
+h2{
+    font-family:'Ubuntu';
+    text-transform: uppercase;
+    font-weight:bold;
+    color:#EB3B5A;
+    text-align: center;
+    margin-top:15px;
+}
+
+.form-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"]{
+    width:500px;
+    background-color:#E7E7E7;
+    border:none;
+    padding:15px;
+    font-family: 'Ubuntu';
+    font-size:13px;
+    margin-bottom:13px;
+
+}
+
+::placeholder{
+    font-family: 'Ubuntu';
+    font-size:15px;
+    color: black;
+    font-weight:bold;
+    padding:15px;
+}
+
+.btn-cadastro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size:15px;
+    text-transform:uppercase;
+    font-family: 'Ubuntu';
+    font-weight:bold;
+    color:white; 
+    background-color:#EB3B5A;
+    border:none;
+    padding:13px;
+    border-radius:2px;
+    text-align:center;
+    margin: 0 auto;
+}

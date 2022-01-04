@@ -1,0 +1,27 @@
+.title-arts{
+    text-align: center;
+    font-family: 'Ubuntu';
+    color:#EB3B5A;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.artigo-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #FFF3F3;
+    height: 449px;
+    margin-left: 50px;
+    margin-right:50px;
+    border-radius:2px;
+}
+
+.artnews a {
+    text-decoration: none;
+    padding:10px;
+    margin-top:5px;
+    font-family: 'Ubuntu';
+    color: black;
+    font-weight:bold;
+}
