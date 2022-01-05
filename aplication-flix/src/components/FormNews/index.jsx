@@ -1,7 +1,11 @@
-import React from 'react';
+import React , {useState} from 'react';
 import './style.css'
+import Modal from '../Modal';
 
 const FormNews = ()=>{
+
+
+
     return ( 
         <div>
             <h2> Receba nossa newslatter</h2>
@@ -12,8 +16,9 @@ const FormNews = ()=>{
 
            </div>
 
-            <button type="button" className="btn-cadastro"> Cadastrar</button>
-
+            <button className="btn-cadastro"> Cadastrar</button>
+            
+            <Modal/>
             
         </div>
     )

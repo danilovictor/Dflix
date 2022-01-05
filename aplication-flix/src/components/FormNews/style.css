@@ -38,6 +38,10 @@ input[type="email"]{
     align-items: center;
 }
 
+.show{
+    display:block !important;
+}
+
 button{
     font-size:15px;
     text-transform:uppercase;

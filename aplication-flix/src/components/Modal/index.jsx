@@ -1,10 +1,13 @@
 import React from 'react';
 import './style.css'
 
-const Modal = () =>{
+const Modal = (props) =>{
+
+    const { className , modalRef} = props;
+
     return ( 
-        <div>
-                teste modal
+        <div ref={modalRef} className={`${className} modal`}>
+                <p>Meu modal</p>
         </div>
     )
 }
