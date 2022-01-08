@@ -4,6 +4,8 @@ import Header from './components/Header';
 import ArtNews from './components/ArtNews';
 import FormNews from './components/FormNews';
 import MarkFlix from './components/MarkFlix';
+import Branch from './components/Branch';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <ArtNews/>
       <FormNews/>
       <MarkFlix/>
+      <Branch/>
+      <Footer/>
     </div>
   )
 }

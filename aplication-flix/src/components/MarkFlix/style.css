@@ -1,0 +1,25 @@
+h3{
+    text-align: center;
+    padding-top:15px;
+}
+
+.mark-container{
+    background-color:#EB3B5A;
+    height:80vh;
+    margin-top:25px;
+    margin: 50px;
+}
+
+.mark-images{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:15px;
+    flex-wrap: wrap;
+}
+
+.mark-images img{
+    width:392px;
+    height:232px;
+    padding:10px;
+}

@@ -8,7 +8,7 @@ const FormNews = ()=>{
 
     return ( 
         <div>
-            <h2> Receba nossa newslatter</h2>
+            <h2 className="title-form"> Receba nossa newslatter</h2>
 
             <div className="form-center">
 

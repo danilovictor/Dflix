@@ -1,10 +1,11 @@
-h2{
+.title-form{
     font-family:'Ubuntu';
     text-transform: uppercase;
     font-weight:bold;
     color:#EB3B5A;
     text-align: center;
     margin-top:15px;
+    background-color:#fff;
 }
 
 .form-center{
