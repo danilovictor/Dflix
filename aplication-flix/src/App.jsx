@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes , Route } from 'react-router-dom';
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import Header from './components/Header';
 import ArtNews from './components/ArtNews';
@@ -11,11 +11,15 @@ import Footer from './components/Footer';
 import Article from '../src/pages/Article';
 import Movies from '../src/pages/Movies';
 import About from '../src/pages/About';
+import Home from '../src/pages/Home';
 
 
 function App() {
  
   return (
+
+    <BrowserRouter>
+    
     <div>
       <Menu/>
       <Header/>
@@ -33,6 +37,8 @@ function App() {
       
       </Routes>
     </div>
+
+    </BrowserRouter>
   )
 }
 

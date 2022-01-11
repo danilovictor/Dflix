@@ -16,10 +16,6 @@ const Menu = ()=>{
                 
                 <div className="menu-header">
 
-                    {/* <a href=""> Artigos</a>
-                    <a href=""> Filmes</a>
-                    <a href=""> Sobre</a> */}
-
                     <ul>
                         <li><Link to="/article"> Artigos</Link></li>
                         <li><Link to="/movies"> Filmes</Link></li>
