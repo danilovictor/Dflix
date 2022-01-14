@@ -4,7 +4,11 @@ import './style.css';
 const Movies = ()=>{
     return (
         <div>
-            teste de rotas movies
+            <div className="movies-container">
+
+                filmes bombasticos
+
+            </div>
         </div>
     )
 }

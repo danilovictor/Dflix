@@ -1,11 +1,11 @@
 import React from 'react'
 import './style.css'
-import ArtNews from '../../components/ArtNews';
 
 const Article = ()=>{
     return (
         <div>
-            <ArtNews/>
+            Teste de rotas de aplicação
+            
         </div>
     )
 }
