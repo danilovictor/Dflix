@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Footer from '../../components/Footer';
 
 const Movies = ()=>{
     return (
@@ -9,7 +10,9 @@ const Movies = ()=>{
                 filmes bombasticos
 
             </div>
+            <Footer/>
         </div>
+        
     )
 }
 
