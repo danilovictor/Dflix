@@ -22,18 +22,19 @@ function App() {
     
     <div>
       <Menu/>
-      <Header/>
-      <ArtNews/>
-      <FormNews/>
-      <MarkFlix/>
-      <Branch/>
-      <Footer/>
+      {/* <Header/> */}
+      {/* <ArtNews/> */}
+      {/* <FormNews/> */}
+      {/* <MarkFlix/> */}
+      {/* <Branch/> */}
+      {/* <Footer/> */}
 
       <Routes>
         
         <Route path="/movies" element={<Movies/>}/> 
         <Route path="/artigos" element={<Article/>}/> 
         <Route path="/sobre" element={<About/>}/> 
+        <Route path="/" element={<Home/>}/>
       
       </Routes>
     </div>

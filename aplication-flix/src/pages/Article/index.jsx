@@ -1,10 +1,11 @@
 import React from 'react'
 import './style.css'
+import ArtNews from '../../components/ArtNews';
 
 const Article = ()=>{
     return (
         <div>
-            teste de rotas article
+            <ArtNews/>
         </div>
     )
 }
