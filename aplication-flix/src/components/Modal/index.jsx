@@ -9,10 +9,20 @@ const Modal = () =>{
         setModal(!modal)
     };
 
+        if(modal){
+            document.body.classList.add('active-modal')
+        }
+
+        else{
+            document.body.classList.remove('active-modal')
+        }
+
+    
+
      return ( 
         <div>
 
-            <button onClick={toggleModal} className="btn-modal"> Abrir Modal</button>
+            <button onClick={toggleModal} className="btn-modal"> Cadastrar</button>
 
             {modal && ( 
 
@@ -26,7 +36,7 @@ const Modal = () =>{
                   
                     <p>Em caso de duvidas entre em contato conosoco</p>
 
-            <button className="close-modal" onclick={toggleModal}> Fechar</button>
+            <button className="close-modal" onClick={toggleModal}>Fechar</button>
 
                  </div>
                 

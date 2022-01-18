@@ -16,8 +16,6 @@ const FormNews = ()=>{
 
            </div>
 
-            <button className="btn-cadastro"> Cadastrar</button>
-            
             <Modal/>
             
         </div>
