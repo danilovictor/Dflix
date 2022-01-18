@@ -1,10 +1,14 @@
 import React from 'react'
 import './style.css'
+import ArtNews from '../../components/ArtNews'
+import Footer from '../../components/Footer'
 
 const Article = ()=>{
     return (
         <div>
-            Teste de rotas de aplicação
+
+            <ArtNews/>
+            <Footer/>
             
         </div>
     )

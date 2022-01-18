@@ -8,6 +8,7 @@ const Movies = ()=>{
         <div>
             <div className="movies-container">
 
+            <h3>Tudo sobre filmes</h3>
 
                 <ArtNews/>
 
