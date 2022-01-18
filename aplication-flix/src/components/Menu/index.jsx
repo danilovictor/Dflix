@@ -17,6 +17,7 @@ const Menu = ()=>{
                 <div className="menu-header">
 
                     <ul>
+                        <li><Link to="/"> Home</Link></li>
                         <li><Link to="/article"> Artigos</Link></li>
                         <li><Link to="/movies"> Filmes</Link></li>
                         <li><Link to="/sobre"> Sobre</Link></li>

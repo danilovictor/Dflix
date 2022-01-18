@@ -1,13 +1,15 @@
 import React from 'react';
 import './style.css';
 import Footer from '../../components/Footer';
+import ArtNews from '../../components/ArtNews';
 
 const Movies = ()=>{
     return (
         <div>
             <div className="movies-container">
 
-                filmes bombasticos
+
+                <ArtNews/>
 
             </div>
             <Footer/>
