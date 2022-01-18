@@ -1,13 +1,43 @@
-import React from 'react';
+import React , {useState} from 'react';
 import './style.css'
 
-const Modal = (props) =>{
+const Modal = () =>{
 
-    const { className , modalRef} = props;
+    const [modal , setModal] = useState(false);
 
-    return ( 
-        <div ref={modalRef} className={`${className} modal`}>
-                <p>Meu modal</p>
+    const toggleModal = ()=>{
+        setModal(!modal)
+    };
+
+     return ( 
+        <div>
+
+            <button onClick={toggleModal} className="btn-modal"> Abrir Modal</button>
+
+            {modal && ( 
+
+            <div className="modal">
+
+                <div onclick={toggleModal} className="overlay">
+                
+                <div className="modal-content">
+                  
+                    <h2>Obrigado por se inscrever na nossa newslatter</h2>
+                  
+                    <p>Em caso de duvidas entre em contato conosoco</p>
+
+            <button className="close-modal" onclick={toggleModal}> Fechar</button>
+
+                 </div>
+                
+                </div>
+
+                </div>
+
+            )}
+
+           
+
         </div>
     )
 }
