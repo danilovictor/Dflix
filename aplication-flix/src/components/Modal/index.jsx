@@ -17,6 +17,7 @@ const Modal = () =>{
             document.body.classList.remove('active-modal')
         }
 
+
     
 
      return ( 
