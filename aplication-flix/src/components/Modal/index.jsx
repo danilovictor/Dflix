@@ -35,7 +35,7 @@ const Modal = () =>{
                   
                     <h2>Obrigado por se inscrever na nossa newslatter</h2>
                   
-                    <p>Em caso de duvidas entre em contato conosoco</p>
+                    <p>Em caso de duvidas entre em contato conosco</p>
 
             <button className="close-modal" onClick={toggleModal}>Fechar</button>
 
