@@ -34,14 +34,25 @@ const Api = ()=>{
 
             <h3>Total de filmes {movies.length}</h3>
             {movies.map((item , index) =>(
-                
-                <div className="movies-container"  key={index}>
+
+                <>
+
+                <div movies-container>
+
+                <div className="movies-content"  key={index}>
 
 
                     <img src={item.avatar}/>
-                    <h3> {item.titulo}</h3>
+                    <h5> {item.titulo}</h5>
+
+                    </div>
+
 
                 </div>
+                
+                
+
+                </>
                 
             ))}
 
