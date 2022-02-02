@@ -1,4 +1,5 @@
 import React , {useState , useEffect} from 'react';
+import './styles.css'
 
 // https://www.b7web.com.br/cinema/
 
@@ -34,7 +35,7 @@ const Api = ()=>{
             <h3>Total de filmes {movies.length}</h3>
             {movies.map((item , index) =>(
                 
-                <div className=""  key={index}>
+                <div className="movies-container"  key={index}>
 
 
                     <img src={item.avatar}/>
