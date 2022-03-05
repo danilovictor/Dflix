@@ -6,7 +6,7 @@ const Menu = ()=>{
     return(
         
         <div>
-            <div className="menu-container">
+            <div className="menu-container p-3">
                 
                 
                 <div className="logo">
