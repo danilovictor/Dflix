@@ -6,31 +6,23 @@ import './styles.css'
 const Api = ()=>{
 
     const [movies , setMovies] = useState([])
-
     const [loading , setLoading] = useState(false)
 
-    useEffect(()=>{
-        
+    useEffect(()=>{      
         loadMovies();
 
     },[])
 
     const loadMovies = async ()=>{
-
         const response = await fetch('https://api.b7web.com.br/cinema/')
         const json = await response.json()
-
         setMovies(json)
-
         console.log(json);
 
     }
-
-
-
     return (
         
-        <div>
+        <div className="container-app">
 
             <h3>Total de filmes {movies.length}</h3>
             {movies.map((item , index) =>(
@@ -40,18 +32,11 @@ const Api = ()=>{
                 <div movies-container>
 
                 <div className="movies-content"  key={index}>
-
-
                     <img src={item.avatar}/>
                     <h5> {item.titulo}</h5>
 
                     </div>
-
-
                 </div>
-                
-                
-
                 </>
                 
             ))}
