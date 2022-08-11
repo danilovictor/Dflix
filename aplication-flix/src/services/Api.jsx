@@ -24,7 +24,7 @@ const Api = ()=>{
         
         <div className="container-app">
 
-            <h3>Total de filmes {movies.length}</h3>
+            {/* <h3>Total de filmes {movies.length}</h3> */}
             {movies.map((item , index) =>(
 
                 <>
